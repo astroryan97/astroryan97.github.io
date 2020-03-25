@@ -24,7 +24,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #1abc9c;
+  //--primary: #1abc9c;
   --secondary: #2c3e50;
   --success: #28a745;
   --info: #17a2b8;
@@ -559,6 +559,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+
 }
 
 @media (min-width: 576px) {
@@ -2263,8 +2264,8 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #159a80;
-  border-color: #148f77;
+  background-color: #6c757d; 
+  border-color: #343a40;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -4372,7 +4373,7 @@ input[type="button"].btn-block {
 .card-header {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
+  //background-color: rgba(0, 0, 0, 0.03);
   border-bottom: 0.125rem solid rgba(0, 0, 0, 0.125);
 }
 
@@ -4714,7 +4715,7 @@ a.badge:hover, a.badge:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: #1abc9c;
+  background-color: #1abc9c; 
 }
 
 a.badge-primary:hover, a.badge-primary:focus {
@@ -6206,7 +6207,9 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #1abc9c !important;
+  background-image: url("milky-way-2695569_1920.jpg");
+  background-repeat: no-repeat;
+  background-color: transparent !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6236,7 +6239,7 @@ button.bg-success:focus {
 }
 
 .bg-info {
-  background-color: #17a2b8 !important;
+  background-color: #17a2b8 !important; 
 }
 
 a.bg-info:hover, a.bg-info:focus,
@@ -9512,7 +9515,7 @@ a.text-dark:hover, a.text-dark:focus {
     page-break-after: avoid;
   }
   @page {
-    size: a3;
+    size: a4;
   }
   body {
     min-width: 992px !important;
@@ -9655,7 +9658,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #1abc9c;
+  color: #6c757d;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {

@@ -21,3 +21,90 @@ ul {
   margin-bottom: 2rem;
   font-size: 1.5em;
 }
+
+h2 {
+  color: #000000;
+}
+
+.bg-primary {
+  background-image: url("milky-way-2695569_1920.jpg");
+  background-repeat: no-repeat;
+  background-color: transparent !important;
+}
+
+.bg-secondary {
+  background-color: #000000 !important;
+}
+
+.masthead .masthead-subheading {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.container {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.figure {
+  display: flex;
+  align-items: center;
+}
+
+.figcaption{
+	text-align: center;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: #0000ff;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+  color: #0000ff;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #0000ff;
+  border-color: #0000ff;
+}
+
+a {
+  color: #0000ff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.75em;
+    transition: font-size 0.3s;
+  }
+  #mainNav .navbar-nav {
+    margin-top: 0;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+    color: #fff;
+    background: #0000ff;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+    color: #fff;
+    background: #0000ff;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+  }
+}
